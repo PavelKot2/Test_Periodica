@@ -1,0 +1,36 @@
+{
+  "name": "test-periodica",
+  "version": "1.0.0",
+  "description": "Test for Periodica",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelKot2/Test_Periodica.git"
+  },
+  "homepage": "https://github.com/PavelKot2/Test_Periodica#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "browser-sync": "^2.26.3",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "stylelint": "^9.10.1"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "author": "Pavel Kotelnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelKot2/Test_Periodica/issues"
+  }
+}
